@@ -1,3 +1,4 @@
 # About Me
 
-Jeremiah Curtis
+My name: Jeremiah Curtis
+
