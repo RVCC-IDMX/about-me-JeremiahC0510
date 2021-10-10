@@ -6,13 +6,9 @@ body{
 }
     h1, h2, h3, h4, h5, h6{
         font-family: 'Lato', sans-serif;
-        font-size: 30pt;
+        font-size: 40pt;
         text-align: center;
 }
-h1{
-    font-size: 40pt;
-}
-
 header{
     text-align: center;
 }
@@ -47,10 +43,41 @@ header{
     color: #F4C400;
     border: 5px solid #F4C400;
     background-color: #FE1A0A;
+    margin-bottom: 2rem;
 }
 #gallery img{
     max-width: 100%;
 }
 #gallery figure{
     text-align: center;
+}
+
+/* Literature*/
+#lit{
+    color: black;
+    border: 5px solid #FE1A0A;
+    background-color: #F4C400;
+    margin-bottom: 2rem;
+}
+#lit h2{
+    color: #FE1A0A;
+    text-decoration-line:underline;
+}
+#lit div{
+    padding: 2rem;
+    max-width: 40rem;
+    margin: 0 auto;
+}
+#lit div p{
+    padding: 0.3rem 0;
+}
+#lit div p:first-child:first-letter{
+    color: #FE1A0A;
+    float: left;
+    font-size: 2em;
+    padding: .25em;
+    margin-right: .25em;
+    line-height: .65;
+    border: 4px outset black;
+    font-family: "Grenze Gotisch";
 }
