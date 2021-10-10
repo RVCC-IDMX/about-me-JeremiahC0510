@@ -7,7 +7,10 @@ body{
     h1, h2, h3, h4, h5, h6{
         font-family: 'Lato', sans-serif;
         font-size: 30pt;
-
+        text-align: center;
+}
+h1{
+    font-size: 40pt;
 }
 
 header{
@@ -28,4 +31,12 @@ header{
 
 #bio{
     text-align: center;
+}
+
+#hobbies ul li{
+    color:black;
+    font-family: Helvetica;
+    font-size: 20pt;
+
+
 }
