@@ -89,20 +89,41 @@ header{
     border: 4px outset black;
     font-family: "Grenze Gotisch";
 }
+#video{
+    color: #F4C400;
+    border: 5px solid #F4C400;
+    background-color: #FE1A0A;
+    margin-bottom: 2rem;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+#myvideo{
+    grid-column: 1;
+    width: 100%;
+}
+#video figcaption{
+    grid-column: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 1.5rem;
+
+}
    
 @media screen and (min-width: 60em) {
-    figure{
+    #gallery figure{
         display: grid;
         grid-template-columns: 2fr 1fr;
     }
-    figcaption{
+    #gallery figcaption{
         display: flex;
         justify-content: center;
         align-items: center;
         font-size: 2rem;
         margin-left: 1rem;
     }
-    figure img{
+    #gallery figure img{
         width: 100%;
     }
 }
@@ -119,13 +140,13 @@ header{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr; 
     }
-    hr{
+    #gallery hr{
         display: none;
     }
     #gallery h2{
         grid-column: 1/-1;
     }
-    figure{
+    #gallery figure{
         display: block;
     }
 }
