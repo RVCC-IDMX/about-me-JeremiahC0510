@@ -1,7 +1,7 @@
 body{
     font-family: 'Roboto', sans-serif;
-    background-color: #FE7900;
-    color: #2C10F4;
+    background-color: #00FEB8;
+    color: #1B00D0;
 
 }
     h1, h2, h3, h4, h5, h6{
@@ -17,9 +17,10 @@ header{
 }
 
 #hero, footer{
-    color: #F4C400;
-    background-color: #FE1A0A;
-    border: 2px solid #F4C400;
+    color: #00E5FF;
+    background-color: #3A3B3D;
+    border: 2px solid #00E5FF;
+    border-radius: 15px;
     text-align: center;
     padding: 10px;
 }
@@ -41,16 +42,18 @@ header{
     align-items: center;
 }
 #hobbies ul li{
-    color:black;
+    list-style: disc;
+    color:#1B00D0;
     font-family: Helvetica;
     font-size: 20pt;
 }
 
 /* Gallery*/
 #gallery{
-    color: #F4C400;
-    border: 5px solid #F4C400;
-    background-color: #FE1A0A;
+    color: #00E5FF;
+    border: 5px solid #00E5FF;
+    background-color: #3A3B3D;
+    border-radius: 15px;
     margin-bottom: 2rem;
 }
 #gallery img{
@@ -62,13 +65,14 @@ header{
 
 /* Literature*/
 #lit{
-    color: black;
-    border: 5px solid #FE1A0A;
-    background-color: #F4C400;
+    color: #DFDFE8;
+    border: 5px solid #00E5FF;
+    background-color: #3A3B3D;
+    border-radius: 15px;
     margin-bottom: 2rem;
 }
 #lit h2{
-    color: #FE1A0A;
+    color: #00E5FF;
     text-decoration-line:underline;
 }
 #lit div{
@@ -80,20 +84,21 @@ header{
     padding: 0.3rem 0;
 }
 #lit div p:first-child:first-letter{
-    color: #FE1A0A;
+    color: #DFDFE8;
     float: left;
     font-size: 2em;
     padding: .25em;
     margin-right: .25em;
     line-height: .65;
-    border: 4px outset black;
+    border: 4px outset #00E5FF;
     font-family: "Grenze Gotisch";
 }
 #video{
-    color: #F4C400;
-    border: 5px solid #F4C400;
-    background-color: #FE1A0A;
+    color: #00E5FF;
+    border: 5px solid #00E5FF;
+    background-color: #3A3B3D;
     margin-bottom: 2rem;
+    border-radius: 15px;
     display: grid;
     grid-template-columns: 2fr 1fr;
 }
@@ -154,4 +159,45 @@ header{
 /* Contact Form */
 #formElements{
     display: grid;
+    row-gap: .5em;
+}
+
+#contact{
+    padding: 1rem;
+    max-width: 600px;
+    margin: 2rem auto;
+}
+
+fieldset{
+    border: 2px solid #3A3B3D;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+legend{
+    background-color: #3A3B3D;
+    color: #00E5FF;
+    padding: .5em;
+}
+
+#contact input, #contact textarea, #contact select, #contact button{
+    padding: .5em;
+    font-size: 1rem;
+}
+
+#contact ul{
+    list-style: none;
+    padding: 0px;
+}
+#contact li{
+    margin: 1rem;
+}
+
+#contact button{
+    background-color: #00E5FF;
+    color: #3A3B3D;
+    border: 1px solid #1B00D0;
+    max-width: 400px;
+    width: 50%;
+    justify-self: center;
 }
