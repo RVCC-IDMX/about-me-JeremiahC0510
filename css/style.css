@@ -10,7 +10,7 @@ body{
         text-align: center;
 }
     h2{
-    margin: .1em;
+    margin: 1em;
 }
 header{
     text-align: center;
@@ -149,4 +149,9 @@ header{
     #gallery figure{
         display: block;
     }
+}
+
+/* Contact Form */
+#formElements{
+    display: grid;
 }
