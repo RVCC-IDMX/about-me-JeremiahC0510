@@ -55,8 +55,6 @@ main{
     padding: 0.5em 0;
 }
 
-
-
 /*  
  style all a tags in header 
  and then on hover
@@ -70,6 +68,14 @@ main{
     letter-spacing: 2px;
     text-decoration: none;
     display: inline-block;
+}
+
+.navbar-links a:hover,
+.navbar-links a:focus{
+    color: #3A3B3D;
+    background-color: #00E5FF;
+    border-radius: 10px;
+    outline: none;
 }
 
 /* 
