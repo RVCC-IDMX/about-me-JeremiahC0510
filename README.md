@@ -17,3 +17,5 @@ Citations:
 All of the information used on my website is personal to me. The only thing that I outsourced was the Excerpt from Sherlock Holmes.
 
 I will allow this website to be used by others.
+
+Github Repo: https://github.com/RVCC-IDMX/about-me-JeremiahC0510
