@@ -14,7 +14,9 @@ Off White: #DFDFE8
 Dark Blue: #1B00D0
 
 Citations:
-All of the information used on my website is personal to me. The only thing that I outsourced was the Excerpt from Sherlock Holmes.
+https://stackoverflow.com/questions/7777159/clip-crop-background-image-with-css
+https://www.w3schools.com/cssref/pr_background-image.asp
+https://www.w3schools.com/css/css_background_image.asp
 
 I will allow this website to be used by others.
 
