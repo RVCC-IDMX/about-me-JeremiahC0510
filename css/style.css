@@ -65,9 +65,12 @@ header{
 
 /* Literature*/
 #lit{
-    color: #DFDFE8;
+    color: #3A3B3D;
+    font-weight: bold;
     border: 5px solid #00E5FF;
-    background-color: #3A3B3D;
+    background-image: url(/img/poland.JPG);
+    max-width: 100%;
+    height: auto;
     border-radius: 15px;
     margin-bottom: 2rem;
 }
@@ -84,7 +87,7 @@ header{
     padding: 0.3rem 0;
 }
 #lit div p:first-child:first-letter{
-    color: #DFDFE8;
+    color: #3A3B3D;
     float: left;
     font-size: 2em;
     padding: .25em;

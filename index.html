@@ -10,6 +10,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Roboto&display=swap" rel="stylesheet">
 
+    <link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+
     <link href="css/style.css" rel= "stylesheet">
     <link href="css/nav.css" rel= "stylesheet">
 
@@ -19,11 +21,19 @@
     <header>
         
         <nav class= "navbar">
-            <div class= "logo"><img src="img/logo-96X96.svg" alt="Blue origami logo">   
-    
+            <div class= "logo"><img src= "img/android-icon-96x96.png" alt="My initials as logo">       
                 <h1>Web Dev I - Online!</h1>
             </div>
             
+<!--Here I am trying to setup the Hamburger Icon Menu-->
+            <div class="nav-toggle">
+                <input type="checkbox" id="nav-button" class="nav-button">
+                <label for="nav-toggle" class="nav-toggle-label">
+                    <span>X</span>
+<!--Professor Caruso I cannot figure out how to get a hamburger Icon without using an Icon online. I was trying to code an Icon but it messed up my website more. At this point I am just using an X to show where it is supposed to be but I don't want to mess up my code more.-->
+                </label>
+            </div>
+
             <div class= "navbar-links">
                 <ul>
                     <li><a href="#bio">Bio</a></li>
@@ -100,25 +110,17 @@
 
         <article id="lit">
 
-            <h2>An Excerpt From Sherlock Holmes</h2>
+            <h2>Background Image Properties</h2>
 
             <div>
 
-            <p>I think that this should do, said he, glancing into the glass above the fireplace. "I only wish that you could come with me, Watson, but I fear that it won't do. I may be on the trail in this matter, or I may be following a will-o'-the-wisp, but I shall soon know which it is. I hope that I may be back in a few hours." He cut a slice of beef from the joint upon the sideboard, sandwiched it between two rounds of bread, and thrusting this rude meal into his pocket he started off upon his expedition.</p>
+            <p>I’ve learned a lot this semester in Web Page Development and during the midterm I was struggling with a few key features that I now know a lot better today than I did then. One of the problems I was having on the midterm was a simple fix that should have only taken me minutes but instead took me a few hours to where I had to walk away and figure it out the next day. My problem was trying to figure out how to include an image as a background and change the properties to how I would want it specifically. It is a mouthful, but it isn’t supposed to be very hard to do. </p>
 
-            <p>I had just finished my tea when he returned, evidently in excellent spirits, swinging an old elastic-sided boot in his hand. He chucked it down into a corner and helped himself to a cup of tea.</p>
+            <p>The way I figured out how to do this is by using background-image property which specifies an image to use as the background of an element. The way this property works is by linking an image on your computer to the code via the url or name of the .jpg stored on your computer. What I did was add the image I was trying to use as my background to my img folder that was included in my vscode. After that I used the property in my code’s css with the url of the image I was trying to use as the background. For some reason this was not working, and I tried a bunch of other techniques, but I really wanted to use this property as it was one of the main ones I was finding online from a bunch of other people. In the end I realized I was using a backslash instead of a forward slash. When I found out that this was my problem, I was super relieved because I didn’t think it would be that small of an error I was having. After I got my picture as my background using the background-image: url(/img/cave.jpg) property, I was then able to edit the background image to exactly where I wanted it.</p>
 
-            <p>I only looked in as I passed, said he. "I am going right on."</p>
+            <p>The way you setup your background when using an image is sort of the same when you are trying to get an image on a specific part of your webpage. Instead of moving the image on top of everything else, you are moving the image behind everything else with a small window of where you can see the image. This can be easily done with positioning properties and height and width properties as well. The main property I used was the background-position property which allows you to line up your picture exactly where you want it depending on the image’s size. Also, if you want you can change the opacity of the image alongside a border and pretty much anything else you can think of. Just know that once you get the origin of your image with the url and make sure it isn’t a repeating image, then you can size it and make sure it is clipping correctly. Remember making a website is sort of like painting a picture where you try different things and see if they work, if not you can go back in and edit it completely different.</p>
 
-            <p>Where to?</p>
-
-            <p>Oh, to the other side of the West End. It may be some time before I get back. Don't wait up for me in case I should be late.</p>
-
-            <p>How are you getting on?</p>
-
-            <p>Oh, so so. Nothing to complain of. I have been out to Streatham since I saw you last, but I did not call at the house. It is a very sweet little problem, and I would not have missed it for a good deal. However, I must not sit gossiping here, but must get these disreputable clothes off and return to my highly respectable self.</p>
-
-            <p>I could see by his manner that he had stronger reasons for satisfaction than his words alone would imply. His eyes twinkled, and there was even a touch of colour upon his sallow cheeks. He hastened upstairs, and a few minutes later I heard the slam of the hall door, which told me that he was off once more upon his congenial hunt.</p>
+            <p>The image used in this section was done using the procedures I talked about in this section. I took this picture of the sky when I was in Poland which was a real adventure!</p>
 
             </div>
 
