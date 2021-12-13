@@ -94,4 +94,35 @@ such that no text wraps
         display: flex;
         justify-content: space-between;
     }
+
+/*trying to setup the hamburger menu to make it not show when passed 60rem screen size*/
+    .nav-toggle .nav-toggle-label #nav-button{
+        display: none;
+    }
+}
+
+/* Hamburger navigation styles start here */
+
+@media screen and (max-width: 60rem) {
+    .navbar-links ul{
+        display: none;
+    }
+
+
+.nav-toggle-label{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: 1em;
+}
+
+
+.nav-toggle{
+    display: none;
+}
+
+/*trying to get it where the nav-button once checked it opens navbar-links class but the tilde character is not working with the pseudocode*/
+.nav-button:checked ~ .navbar-links{
+    display: block;
+}
 }
